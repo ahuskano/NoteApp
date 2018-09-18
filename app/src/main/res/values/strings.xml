@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Noteapp</string>
+
+
+    //login
+    <string name="login_failed_msg">Prijava neuspjesna</string>
+    <string name="login_success_msg">Prijava uspjesna</string>
+
+</resources>

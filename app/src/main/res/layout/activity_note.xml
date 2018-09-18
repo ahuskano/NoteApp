@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Name" />
+
+            <EditText
+                android:id="@+id/etName"
+                android:textColor="@color/secondary_text"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"/>
+
+            <TextView
+                android:id="@+id/tvDescriptio"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Description" />
+
+            <EditText
+                android:id="@+id/etDescription"
+                android:textColor="@color/secondary_text"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"/>
+
+        </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
